@@ -1,2 +1,2 @@
 # anotherstupidtest
-famo 'na prova,,,,
+famo 'na prova...
