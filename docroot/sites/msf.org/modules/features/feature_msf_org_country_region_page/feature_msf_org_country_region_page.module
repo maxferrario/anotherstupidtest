@@ -1,0 +1,18 @@
+<?php
+/**
+ * @file
+ * Code for the Country / Region Page MSF.org feature.
+ */
+
+include_once 'feature_msf_org_country_region_page.features.inc';
+
+/**
+ * Add the necessary spaces for the taxonomy subterms
+ */
+function feature_msf_org_country_region_page_spaces($number, $char = ' '){
+  $output = '';
+  for ($i = 0; $i < $number; $i++){
+    $output .= $char;
+  }
+  return $output;
+}
